@@ -18,3 +18,21 @@ Key Features
 
 - Detailed filtering of enrollments to retrieve specific student-course relationships.
 
+# Technologies Used
+--------------------
+- Backend: Laravel 10 (PHP Framework)  
+- Frontend: Blade Templates, Bootstrap  
+- Database: MySQL  
+- ORM: Eloquent  
+- Design Pattern: DTOs, Service Layer
+
+# Installation & Setup
+-----------------------
+```bash
+git clone https://github.com/Sujith052/coursemanagement_system.git
+cd course-management-system
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
